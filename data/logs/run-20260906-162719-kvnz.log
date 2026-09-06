@@ -1,0 +1,15 @@
+0.00.015.801 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.020.095 W srv  llama_server: -----------------
+0.00.020.098 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.020.098 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.020.099 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.020.099 W srv  llama_server: -----------------
+0.00.022.610 I srv    load_model: loading model '/home/stanne/.lmstudio/models/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF/dspark-DeepSeek-V4-Flash-0731-Q8_0.gguf'
+0.00.169.402 E llama_init_from_model: failed to initialize the context: dflash requires ctx_other to be set (this warning is normal during memory fitting)
+0.00.198.549 E common_fit_params: encountered an error while trying to fit params to free device memory: failed to create llama_context from model
+0.11.460.585 E llama_init_from_model: failed to initialize the context: dflash requires ctx_other to be set (this warning is normal during memory fitting)
+0.11.460.592 E cmn  common_init_: failed to create context with model '/home/stanne/.lmstudio/models/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF/dspark-DeepSeek-V4-Flash-0731-Q8_0.gguf'
+0.11.460.593 E cmn  common_init_: failed to create context with model '/home/stanne/.lmstudio/models/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF/dspark-DeepSeek-V4-Flash-0731-Q8_0.gguf'
+0.11.460.601 E srv    load_model: failed to create_context with model '/home/stanne/.lmstudio/models/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF/dspark-DeepSeek-V4-Flash-0731-Q8_0.gguf'
+0.11.460.603 I srv    operator(): operator(): cleaning up before exit...
+0.11.462.194 E srv  llama_server: exiting due to model loading error

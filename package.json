@@ -1,0 +1,13 @@
+{
+  "name": "llama-manager",
+  "version": "1.0.0",
+  "description": "Web UI to manage llama.cpp builds and launch LLM servers for local-network inferencing",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

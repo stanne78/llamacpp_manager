@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>llama.cpp Manager</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦙</text></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🦙</span>
+      <div>
+        <h1>llama.cpp Manager</h1>
+        <span id="hostInfo" class="muted small">local network inferencing</span>
+      </div>
+    </div>
+    <nav id="tabs" class="tabs">
+      <button data-view="dashboard" class="tab active">Dashboard</button>
+      <button data-view="launch" class="tab">Launch</button>
+      <button data-view="presets" class="tab">Presets</button>
+      <button data-view="models" class="tab">Models</button>
+      <button data-view="chat" class="tab">Chat</button>
+      <button data-view="settings" class="tab">Settings</button>
+    </nav>
+    <div id="gpuStrip" class="gpu-strip" title="GPU status"></div>
+  </header>
+
+  <main id="main">
+    <section id="view-dashboard" class="view"></section>
+    <section id="view-launch" class="view hidden"></section>
+    <section id="view-presets" class="view hidden"></section>
+    <section id="view-models" class="view hidden"></section>
+    <section id="view-chat" class="view hidden"></section>
+    <section id="view-settings" class="view hidden"></section>
+  </main>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <div id="logModal" class="modal-backdrop hidden">
+    <div class="modal">
+      <div class="modal-head">
+        <h3 id="logModalTitle">Logs</h3>
+        <div class="modal-actions">
+          <label class="small muted"><input type="checkbox" id="logAutoScroll" checked /> auto-scroll</label>
+          <button id="logModalClose" class="btn">Close</button>
+        </div>
+      </div>
+      <pre id="logModalBody" class="log-view"></pre>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

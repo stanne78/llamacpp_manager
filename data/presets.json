@@ -1,0 +1,29 @@
+[
+  {
+    "id": "preset-mtpsdle8",
+    "name": "qwen3.8-next",
+    "modelId": "unsloth/Qwen3.8-Flash-Next-GGUF/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+    "buildId": "/opt/llamacpp/rocm7.14/llama.cpp-0.4.0/build/bin",
+    "port": 8080,
+    "host": "0.0.0.0",
+    "ctxSize": 256000,
+    "ngl": 99,
+    "jinja": true,
+    "flashAttention": true,
+    "useMmproj": true,
+    "specType": "draft-dspark",
+    "specDraftNMax": 4,
+    "chatTemplateFile": "/opt/llamacpp/rocm7.14/llama.cpp-0.4.0/build/bin/chat_template_29082026.jinja",
+    "loadMode": "dio",
+    "cacheTypeK": "q8_0",
+    "cacheTypeV": "q8_0",
+    "cacheTypeKD": "q8_0",
+    "cacheTypeVD": "q8_0",
+    "ngld": 99,
+    "temp": 1,
+    "topP": 0.95,
+    "minP": 0,
+    "topK": 20,
+    "extraArgs": ""
+  }
+]

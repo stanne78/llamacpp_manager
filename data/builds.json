@@ -1,0 +1,128 @@
+{
+  "/opt/llamacpp/vulcan/llama.cpp-b10437/build/bin": {
+    "mtimeMs": 1786786528814.6135,
+    "info": {
+      "version": "0.1.0-dev (build 0, commit unknown)",
+      "backend": {
+        "id": "vulkan",
+        "label": "Vulkan"
+      },
+      "env": {
+        "LD_LIBRARY_PATH": "/opt/llamacpp/vulcan/llama.cpp-b10437/build/bin"
+      },
+      "selfContained": false,
+      "flags": {
+        "mmproj": true,
+        "jinja": true,
+        "flashAttn": true,
+        "specType": true,
+        "draftMax": true
+      }
+    }
+  },
+  "/opt/llamacpp/rocm7.14/llama.cpp-latest/llama.cpp/build/bin": {
+    "mtimeMs": 1788352386171.0356,
+    "info": {
+      "version": "0.3.0-dev (build 10760, commit 0f3a71be1)",
+      "backend": {
+        "id": "hip",
+        "label": "HIP / ROCm"
+      },
+      "env": {
+        "LD_LIBRARY_PATH": "/opt/rocm/lib:/opt/llamacpp/rocm7.14/llama.cpp-latest/llama.cpp/build/bin"
+      },
+      "selfContained": false,
+      "flags": {
+        "mmproj": true,
+        "jinja": true,
+        "flashAttn": true,
+        "specType": true,
+        "draftMax": true
+      }
+    }
+  },
+  "/opt/llamacpp/rocm7.14/llama.cpp-0.4.0/build/bin": {
+    "mtimeMs": 1788681881636.2632,
+    "info": {
+      "version": "0.4.0-dev (build 0, commit unknown)",
+      "backend": {
+        "id": "hip",
+        "label": "HIP / ROCm"
+      },
+      "env": {
+        "LD_LIBRARY_PATH": "/opt/rocm/lib:/opt/llamacpp/rocm7.14/llama.cpp-0.4.0/build/bin"
+      },
+      "selfContained": false,
+      "flags": {
+        "mmproj": true,
+        "jinja": true,
+        "flashAttn": true,
+        "specType": true,
+        "draftMax": true
+      }
+    }
+  },
+  "/opt/llamacpp/b1311": {
+    "mtimeMs": 1786548687000,
+    "info": {
+      "version": "0.1.0-dev (build 1, commit 9558fa4)",
+      "backend": {
+        "id": "hip",
+        "label": "HIP / ROCm"
+      },
+      "env": {
+        "LD_LIBRARY_PATH": "/opt/rocm/lib:/opt/llamacpp/b1311"
+      },
+      "selfContained": true,
+      "flags": {
+        "mmproj": true,
+        "jinja": true,
+        "flashAttn": true,
+        "specType": true,
+        "draftMax": true
+      }
+    }
+  },
+  "/opt/llamacpp/b1312": {
+    "mtimeMs": 1787253231000,
+    "info": {
+      "version": "0.1.2-dev (build 1, commit 9855ad6)",
+      "backend": {
+        "id": "hip",
+        "label": "HIP / ROCm"
+      },
+      "env": {
+        "LD_LIBRARY_PATH": "/opt/rocm/lib:/opt/llamacpp/b1312"
+      },
+      "selfContained": true,
+      "flags": {
+        "mmproj": true,
+        "jinja": true,
+        "flashAttn": true,
+        "specType": true,
+        "draftMax": true
+      }
+    }
+  },
+  "/opt/llamacpp/rocmfpx_fork/ROCmFPX/build-strix-rocmfp4/bin": {
+    "mtimeMs": 1787367352839.5461,
+    "info": {
+      "version": "246 (0a59add)",
+      "backend": {
+        "id": "rocmfpx",
+        "label": "ROCmFPX fork"
+      },
+      "env": {
+        "LD_LIBRARY_PATH": "/opt/rocm/lib:/opt/llamacpp/rocmfpx_fork/ROCmFPX/build-strix-rocmfp4/bin"
+      },
+      "selfContained": false,
+      "flags": {
+        "mmproj": true,
+        "jinja": true,
+        "flashAttn": true,
+        "specType": true,
+        "draftMax": true
+      }
+    }
+  }
+}
